@@ -1,0 +1,4 @@
+source ~/.exrc
+source filters.rc
+source palettes.rc
+set cs=white
