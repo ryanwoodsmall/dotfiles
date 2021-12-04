@@ -14,3 +14,13 @@ for d in ${PWD}/dot_* ; do
   echo "test -e ${t} || ln -s ${d} ${t}"
 done
 ```
+
+or run this, if you trust some guy on the internet:
+
+```shell
+for u in https://raw.githubusercontent.com/ryanwoodsmall/dotfiles/master/dot_{bim{3,},elvis,ex,vile,vim}rc
+do
+  f="$(basename ${u//dot_/.})"
+  curl -kLo "${HOME}/${f}" "${u}"
+done
+```
