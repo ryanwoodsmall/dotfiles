@@ -1,2 +1,11 @@
 syntax on
 set visualbell
+set number
+set splitbelow
+set splitright
+set cursorline
+hi cursorline cterm=none
+hi cursorline ctermfg=none
+hi cursorline ctermbg=none
+hi cursorlinenr ctermfg=black
+hi cursorlinenr ctermbg=yellow
