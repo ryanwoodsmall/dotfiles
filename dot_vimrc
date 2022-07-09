@@ -5,6 +5,7 @@ set number
 set splitbelow
 set splitright
 set cursorline
+set backspace=indent,eol,start
 hi cursorline cterm=none
 hi cursorline ctermfg=none
 hi cursorline ctermbg=none
