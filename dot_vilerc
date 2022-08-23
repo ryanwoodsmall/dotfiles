@@ -1,3 +1,5 @@
+set number
+set linewrap
 source filters.rc
 source palettes.rc
 set cs=white
