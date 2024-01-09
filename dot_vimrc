@@ -1,4 +1,5 @@
 syntax on
+colorscheme desert
 set ruler
 set visualbell
 set number
